@@ -1,0 +1,32 @@
+* {
+  background-color: #1f2937;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-center {
+  width: 90vw;
+}
+.nav-bar {
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  font-size: 18px;
+  text-transform: lowercase;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.header-logo {
+  text-transform: capitalize;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 24px;
+}
+.nav-group {
+  display: flex;
+  gap: 12px;
+}
