@@ -1,4 +1,4 @@
-* {
+body {
   background-color: #1f2937;
 }
 .main {
@@ -11,6 +11,7 @@
 }
 .nav-bar {
   height: 6rem;
+
   display: flex;
   justify-content: space-between;
 }
@@ -29,4 +30,119 @@
 .nav-group {
   display: flex;
   gap: 12px;
+}
+/* hero css start here  */
+
+.container {
+  display: flex;
+  height: 20rem;
+  margin-bottom: 20px;
+}
+.left-hero {
+  text-align: left;
+  width: 50%;
+}
+.left-hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+.left-hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.left-hero button {
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 15px;
+  color: white;
+}
+
+.right-hero {
+  width: 50%;
+  height: auto;
+  border: 1px solid grey;
+  text-align: center;
+  display: flex;
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+.right-hero p {
+  background-color: gray;
+  color: white;
+  background-color: none;
+}
+/* hero css end here  */
+
+/* Random information section start here  */
+
+.box-center {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  margin-top: 2rem;
+}
+.box {
+  width: auto;
+  height: 8rem;
+  border-radius: 10px;
+  border: 3px solid #3882f6;
+  text-align: center;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box p {
+  margin-top: 14rem;
+}
+.box-top {
+  background-color: white;
+  height: 22rem;
+  padding: 20px;
+}
+
+/* Random information section end here  */
+/* quote section start here  */
+
+.quotes {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
+.quotes i {
+  font-size: 28px;
+}
+/* quote section end here  */
+
+/* call section start here  */
+.call-container {
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 18px;
+  justify-content: space-between;
+  display: flex;
+}
+.call-container button {
+  background-color: #3882f6;
+  width: 20%;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+  border-color: white;
+  margin-top: 3rem;
+  /* padding: 15px; */
+  color: white;
+}
+.call-heading,
+.call-para {
+  color: white;
+}
+/* call section ends here  */
+.footer {
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
 }
